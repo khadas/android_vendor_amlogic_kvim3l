@@ -1,3 +1,3 @@
-ifneq (,$(filter $(TARGET_DEVICE),franklin faraday))
+ifneq (,$(filter $(TARGET_DEVICE),kvim3l faraday))
   include $(call all-subdir-makefiles)
 endif
